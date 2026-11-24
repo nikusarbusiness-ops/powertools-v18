@@ -1,0 +1,15 @@
+# PowerTools - PowerSMP
+# Die Verzauberungen der vier Werkzeuge können hier angepasst werden.
+tools:
+  drill:
+    efficiency: 5
+    unbreaking: 3
+    fortune: 0
+  axe:
+    efficiency: 5
+    unbreaking: 3
+  shovel:
+    efficiency: 5
+    unbreaking: 3
+  bucket:
+    enabled: true

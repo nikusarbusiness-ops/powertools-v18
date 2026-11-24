@@ -1,0 +1,18 @@
+name: PowerTools
+version: 1.3.3
+main: de.powersmp.powertools.PowerTools
+api-version: '1.21'
+author: PowerSMP
+description: Custom PowerSMP tools
+softdepend: [PowerEco]
+
+commands:
+  powertools:
+    description: Gibt PowerTools aus
+    usage: /pt give <spieler> <drill|axe|shovel|bucket|sellaxe> [anzahl]
+    aliases: [pt]
+
+permissions:
+  powertools.admin:
+    description: Darf PowerTools vergeben
+    default: op
